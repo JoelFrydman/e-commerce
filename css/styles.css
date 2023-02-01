@@ -71,6 +71,7 @@ aside{
     gap: 1rem;
     padding: 1rem;
     font-size: .85rem;
+    width: 100%;
 }
 
 .boton-menu.active{
@@ -156,14 +157,15 @@ main{
     text-transform: uppercase;
     border-radius: 2rem;
     cursor: pointer;
+    border: 2px solid var(--clr-white);
+    transition: background-color .2s,color .2s;
     
 }
 
 .producto-agregar:hover{
     background-color: var(--clr-main);
     color: var(--clr-white);
-    border: 2px solid var(--clr-white);
-    transition: background-color .2s,color .2s;
+    
 }
 
 /**Carrito**/
