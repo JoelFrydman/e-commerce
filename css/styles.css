@@ -58,11 +58,18 @@ aside {
     justify-content: space-between;
 }
 
+.wrapper aside .contenedor-api{
+    background-color:var(--clr-white);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    text-align: center;
+}
 
 .temp,
 .summary,
 .location {
-    color: black;
+    color: var(--clr-main-light);
     font-weight: 500;
     font-size: 1rem;
 }
